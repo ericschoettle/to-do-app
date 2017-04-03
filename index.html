@@ -9,6 +9,58 @@
     <script type="text/javascript" src="js/scripts.js"></script>
   </head>
   <body>
-
+    <div class="container">
+      <h1>Calendar</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <h2>Add an appointment:</h2>
+          <form id="new-entry">
+            <div class="form-group">
+              <label for="event-input">Name of Your Event:</label>
+              <input type="text" class="form-control" id="event-input">
+            </div>
+            <!-- <button type="button" class="btn" id="show-more">Additional Details</button> -->
+            <div class="details">
+              <div class="form-group">
+                <label for="whom-input">With Whom:</label>
+                <input type="text" class="form-control" id="whom-input">
+              </div>
+              <div class="form-group">
+                <label for="location-input">Location:</label>
+                <input type="text" class="form-control" id="location-input">
+              </div>
+              <div class="form-group">
+                <label for="date-input">Date:</label>
+                <input type="date" class="form-control" id="date-input">
+              </div>
+              <div class="form-group">
+                <label for="duration-input">How many hours:</label>
+                <input type="number" class="form-control" id="duration-input">
+              </div>
+            </div>
+            <button type="submit" class="btn">Add</button>
+          </form>
+          <h2>Events on your calendar</h2>
+          <form id="checkboxes">
+            <div class="form-group" id="complete-list">
+              <h3>check off what you've done</h3>
+              <button type="button" class="btn" id="completed">What have you finished?</button>
+            </div>
+          </form>
+          <ul id="events">
+          </ul>
+        </div>
+        <div class="col-md-6">
+         <div id="show-events">
+           <h2></h2>
+           <p>Event: <span class="event-display"></span></p>
+           <p>With whom: <span class="whom-display"></span></p>
+           <p>Location: <span class="location-display"></span></p>
+           <p>Date: <span class="date-display"></span></p>
+           <p>Duration: <span class="duration-display"></span></p>
+         </div>
+       </div>
+      </div>
+    </div>
   </body>
 </html>

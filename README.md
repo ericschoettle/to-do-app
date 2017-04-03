@@ -25,7 +25,7 @@ _{This is a detailed description of your application. Its purpose and usage.  Gi
 * _When clicked, shows attributes of the task object_
   * _eg "lunch" => "lunch, at noon, with so and so"_
 * _Will hide others when we click on another task_
-* _Will allow user to check off done items (make a prototype method for Object)_
+* _Will allow user to check off completed items (make a prototype method for Object)_
   * _checkbox with strikethrough_
 
 ## Setup/Installation Requirements
