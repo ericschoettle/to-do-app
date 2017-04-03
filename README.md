@@ -13,6 +13,21 @@
 
 _{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
 
+
+## Specifications
+
+* _Allow users to input text_
+* _Return inputted text to user_
+* _Will use a constructor to create instances of tasks_
+  * _eg. meeting with boss => {type: meeting, person: boss, time: "unknown", place: unknown}_
+* _Will list entered tasks_
+  * _meeting, lunch, dinner_
+* _When clicked, shows attributes of the task object_
+  * _eg "lunch" => "lunch, at noon, with so and so"_
+* _Will hide others when we click on another task_
+* _Will allow user to check off done items (make a prototype method for Object)_
+  * _checkbox with strikethrough_
+
 ## Setup/Installation Requirements
 
 * _This is a great place_
